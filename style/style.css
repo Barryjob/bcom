@@ -1,0 +1,465 @@
+@charset "utf-8";
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#f6f7f7;
+}
+
+.background .body-in{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-image:linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../all-image/body-image/background.jpg);
+    min-height: 350px;
+}
+
+
+.background .body-in .icon-div{
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.background .body-in .icon-div .icon-in{
+    width: 15%;
+    height: 60px;
+    background-color: aqua;
+}
+
+.background .body-in .icon-div .icon-in img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* margin-left: -26px  ; */
+}
+
+.background .body-in .request-loan{
+    width: 70%;
+    height: 430px;
+    margin: auto;
+    background: rgba(238, 231, 231, 0.8);
+    border-radius: 10px;
+}
+
+.background .body-in .request-loan .header-div{
+    width: 100%;
+    height: 40px;
+    background: rgba(238, 231, 231, 0.4);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: #a5a7a7 1px solid;
+}
+
+
+
+
+.background .body-in .request-loan .header-div .reques-view-loan{
+    width: 30%;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.background .body-in .request-loan .header-div .reques-view-loan .btn{
+   background-color: transparent;
+   border: none;
+   font-weight: bold;
+}
+
+.background .body-in .request-loan  .request-loan-text{
+    width: 26%;
+    min-height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+.background .body-in .request-loan  .request-loan-text h2{
+    margin: 0%;
+    padding: 0%;
+    font-size:28px ;
+    font-weight: bold;
+}
+
+.background .body-in .request-loan .label-input-div{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+
+
+.background .body-in .request-loan .fullname{
+    width: 95%;
+    height: 75px;
+    margin: auto;
+    padding-left: 2px;
+}
+
+.background .body-in .request-loan .label-input-div .fullname label{
+    font-size: 13px;
+    padding: 10px 0px;
+}
+
+.background .body-in .request-loan .label-input-div .fullname .text_field{
+    width: calc(100% - 20px);
+    height: 30px;
+    margin: 5px 0px;
+    border: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+
+
+.background .body-in .request-loan .button{
+    width: 30%;
+    height: 65px;
+    padding-left: 2px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.background .body-in .request-loan .button .btn{
+    background-color: rgb(8, 113, 199);
+    height:50px;
+    width: 80%;
+    border-radius: 30px;
+    border: 0px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.background .body-in .footer{
+    width: 70%;
+    min-height: 40px;
+    margin: auto;
+    margin-top: 40px;
+    border-top: #a5a7a7 1px dashed ;
+}
+
+.background .body-in .footer .copyright{
+    width: 25%;
+    min-height: 40px;
+    float: left;
+    padding-top: 10px;
+}
+
+.background .body-in .footer .copyright h6{
+    font-size: 13px;
+   margin: 0%;
+   padding: 0%;
+   color: rgba(238, 231, 231, 0.8);
+}
+
+.background .body-in .footer .social-media{
+    width: 40%;
+    min-height: 30px;
+    float: right;
+}
+
+.background .body-in .footer .social-media li {
+    display: inline ;
+}
+
+.background .body-in .footer .social-media li .bi{
+    margin-left: 5px;
+   color: rgba(238, 231, 231, 0.8);
+}
+
+@media all and (max-width:1308px) {
+	.background .body-in {
+		width: 100%;
+	}
+    .background .body-in .icon-div-in {
+        margin: auto;
+        width: 100%;
+    }
+    .background .body-in .request-loan  .request-loan-text{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .background .body-in .request-loan .header-div .reques-view-loan{
+        width: 100%;
+    }
+    .background .body-in .request-loan .button{
+        width: 60%;
+    }
+}
+
+@media all and (max-width:906px) {
+    .background .body-in .request-loan .button{
+        width: 80%;
+    }
+}
+.background .body-in .footer {
+    width:  100%;
+}
+
+@media all and (max-width:500px) {
+.background .body-in .request-loan .header-div .reques-view-loan{
+    width: 100%;
+}
+}
+
+@media all and (max-width:433px) {
+    .background .body-in .request-loan .button{
+        width: 100%;
+    }
+}
+@media all and (max-width:688px) {
+.background .body-in .footer .copyright{
+    width:  100%;
+}
+
+.background .body-in .footer .social-media{
+    width: 100%;
+}
+}
+
+
+
+/* ----------------second form----------- */
+
+.background .body-in .request-loan .back-div{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.background .body-in .request-loan .back-div .individual{
+    width: 25%;
+    height: 90px;
+    background-color: rgb(252, 252, 252);
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    margin: 8px 5px;
+}
+
+.background .body-in .request-loan .back-div .individual p{
+    font-size: 11px;
+    margin-left: 10px;
+    color: rgb(40, 140, 253);
+    font-weight: bold;
+}
+
+.background .body-in .request-loan .back-div .individual .text{
+    width: 90%;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-bottom: #b1b0b0 2px solid;
+}
+
+.background .body-in .request-loan .back-div .individual .text h2{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+}
+
+.background .body-in .request-loan .back-div .individual .amount-month{
+    width: 97%;
+    height: 25px
+
+    
+}
+
+.background .body-in .request-loan .back-div .individual .amount-month .amount{
+    float: left;
+    width: 40%;
+    height: 25px;
+    margin-left: 10px;
+  }
+
+  .background .body-in .request-loan .back-div .individual .amount-month .amount p{
+    margin-top: 3px;
+    color: black;
+    margin-left: -1px;
+  }
+  
+  .background .body-in .request-loan .back-div .individual .amount-month .month{
+      float: right;
+  }
+  .background .body-in .request-loan .back-div .individual .amount-month .month .btn{
+    background-color: rgb(230, 99, 12);
+    color:#fff ;
+    border-radius: 4px;
+    border-color:  rgb(230, 99, 12);
+    margin-right: 6px;
+  }
+
+
+  /* ---------repayment------- */
+
+   .background .body-in .icon-div-repayment{
+    width: 70%;
+    height: 60px;
+    margin: auto;
+}
+
+.background .body-in .icon-div-repayment .icon-in{
+    width: 15%;
+    height: 60px;
+    float: left;
+}
+
+.background .body-in .icon-div-repayment .icon-in img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -24PX;
+} 
+.background .body-in .request-loan-repayment{
+    width: 70%;
+    height: 580px;
+    min-height: 350px;
+    margin: auto;
+    background: rgba(238, 231, 231, 0.8);
+    border-radius: 10px;
+}
+
+.background .body-in .request-loan-repayment .header-div{
+    width: 100%;
+    height: 40px;
+    background: rgba(238, 231, 231, 0.4);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: #a5a7a7 1px solid;
+}
+
+.background .body-in .request-loan-repayment .header-div .reques-view-loan{
+    width: 30%;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.background .body-in .request-loan-repayment .header-div .reques-view-loan .btn{
+   background-color: transparent;
+   border: none;
+   font-weight: bold;
+}
+
+.background .body-in .request-loan-repayment  .request-loan-text{
+    width: 43%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.background .body-in .request-loan-repayment  .request-loan-text h2{
+    margin: 0%;
+    padding: 0%;
+    font-size:33px ;
+    font-weight: bold;
+}
+
+.background .body-in .repayment-left-right{
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.background .body-in .repayment-left-right .all-loan-div{
+    width: 26%;
+    height: 66px;
+    margin-left: 50px;
+    float: left;
+
+}
+
+.background .body-in .repayment-left-right .all-loan-div .individual{
+    width: 100%;
+    height: 63px;
+    background-color: rgb(252, 252, 252);
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.background .body-in .repayment-left-right .all-loan-div .individual p{
+    font-size: 11px;
+    margin-left: 10px;
+    color: rgb(40, 140, 253);
+    font-weight: bold;
+}
+
+.background .body-in .repayment-left-right .all-loan-div .individual .text{
+    width: 86%;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    border-top: #b1b0b0 1px solid;
+    background-color: aqua;
+}
+
+.background .body-in .repayment-left-right .all-loan-div .individual .text h4{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+}
+
+
+
+.background .body-in .repayment-left-right .loan-breakdown{
+    width: 63%;
+    min-height: 300px;
+    background-color: rgb(252, 252, 252);
+    float: right;
+    margin-right: 43px;
+    padding: 0%;
+}
+
+.background .body-in .repayment-left-right .loan-breakdown .table-div{
+    width: 100%;
+    height: 260px;
+    margin: auto;
+}
+
+
+.background .body-in .repayment-left-right .loan-breakdown .table-div th, td{
+    font-size: 13px;
+    padding: 12px ;
+}
+
+
+.background .body-in .repayment-left-right .loan-breakdown .table-div tr:nth-child(old){
+   background: #c2bfbf;
+}
+
+.background .body-in .repayment-left-right .loan-breakdown .table-div th:nth-child(even){
+    background: #f6f7f7;
+ }
+
+
+    
+
+
+
+
+
+
+
+
+
+
